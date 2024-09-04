@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: linear-gradient(rgba(0,0,0,0.5), #dadada), url("images/img2.jpg"), no-repeat center;
+    background-size: cover; /* Ensures the image is fully visible */
+    background-attachment: center; /* Keeps the background fixed during scroll */
+    height: 100vh;
+}
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+    
+}
+
+.banner-text h1 {
+    font-size: 100px;  
+}
+
+.banner-text p {
+    font-size: 20px;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+
+}
+
+.pole-cards {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #179c5e; /* Change this to your desired color */
+    
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }

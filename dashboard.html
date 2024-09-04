@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Electric Pole Data Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Electric Pole Data</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="dashboard">
+        <h1>Electric Pole Data by Region</h1>
+        <div class="region-selection">
+            <label for="region">Select Region:</label>
+            <select id="region">
+                <option value="north">North Region</option>
+                <option value="south">South Region</option>
+                <option value="east">East Region</option>
+                <option value="west">West Region</option>
+            </select>
+        </div>
+        <div class="data-display">
+            <h2>Region Data</h2>
+            <p>No data to display. Select a region to view details.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electric Pole Data. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
